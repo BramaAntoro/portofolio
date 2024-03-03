@@ -14,7 +14,16 @@ html {
     font-style: normal;
 }
 
-.container-nama {}
+@media screen and (max-width: 990px) {
+    .container_navbar {
+        padding: 0;
+        margin: 0;
+    }
+}
+
+/* Navbar Selesai */
+
+/* Home Mulai */
 
 .nama {
     font-size: 52px;
@@ -28,96 +37,16 @@ html {
         typing 3.5s steps(25, end) infinite;
 }
 
-@media screen and (max-width: 990px) {
-    .container_navbar {
-        padding: 0;
-        margin: 0;
-    }
-}
-
-/* Navbar Selesai */
-
-/* Home Mulai */
-
-
-.container-home {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 69px 0 0 0;
-    margin: 15px;
-    margin-left: 150px;
-    height: 100vh;
-    width: 100vh;
-    max-width: 100vh;
-}
-
-.container-nama{
-    position: relative;
-}
-
-.img-brama{
-    width: 100%;
-}
 
 .container-icon {
     position: relative;
-    top: 100px;
+    top: 150px;
 }
 
 .icon {
     text-decoration: none;
     color: black;
     padding: 10px;
-}
-
-@media screen and (max-width: 1080px) {
-    .container-home {
-        grid-template-columns: 2fr; 
-        margin-left: 15px; 
-        text-align: center;
-    }
-
-    .container-nama{
-        margin: 0;
-        padding: 0;
-    }
-
-    .img-brama{
-        padding-top: 50px;
-    }
-    
-    h2{
-        font-size: 25px;
-    }
-
-    .nama{
-        font-size: 40px;
-    }
-}
-
-
-@media screen and (max-width: 560px) {
-    .container-home {
-        grid-template-columns: 1fr;
-        margin-left: 15px;
-    }
-
-      .container-nama{
-        margin: 0;
-        padding: 0;
-    }
-
-    .img-brama{
-        padding-top: 50px;
-    }
-    
-    h2{
-        font-size: 25px;
-    }
-
-    .nama{
-        font-size: 40px;
-    }
 }
 
 
@@ -131,6 +60,15 @@ html {
     }
 }
 
+@media (max-width: 768px) {
+    .home .row {
+        flex-direction: column-reverse;
+    }
+
+    .home .col-12.col-md-4 {
+        order: -1;
+    }
+}
 
 /* button mulai */
 .button {
@@ -231,214 +169,3 @@ html {
 /* button selesai */
 
 /* Home Selesai */
-
-
-/* About mulai */
-.container-about {}
-
-.wrapper {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 25px;
-}
-
-/* Skill mulai */
-.judul-skill {
-  text-align: center;
-  font-family: "Ubuntu", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-}
-
-.skills__container {
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
-}
-
-.skills__subtitle {
-  margin-bottom: var(--mb-2);
-}
-
-.skills__text {
-  margin-bottom: var(--mb-4);
-}
-
-.skills__data {
-  margin: 10px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  position: relative;
-  font-weight: var(--font-semi);
-  padding: 0.5rem 1rem;
-  margin-bottom: var(--mb-4);
-  border-radius: 0.5rem;
-  box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
-}
-
-.skills__icon {
-  font-size: 2rem;
-  margin-right: var(--mb-2);
-  color: var(--first-color);
-}
-
-.skills__names {
-  display: flex;
-  align-items: center;
-}
-
-.skills__bar {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  background-color: var(--first-color);
-  height: 0.25rem;
-  border-radius: 0.5rem;
-  z-index: var(--z-back);
-}
-
-.skills__html {
-  width: 85%;
-}
-
-.skills__css {
-  width: 70%;
-}
-
-.skills__js {
-  width: 15%;
-}
-
-.skills__php {
-  width: 10%;
-}
-
-.skills__csharp {
-  width: 10%;
-}
-
-.skills__mysql {
-  width: 10%;
-}
-
-.skills__img {
-  border-radius: 0.5rem;
-}
-
-
-:root {
-  --hue-color: 224;
-  --first-color: hsl(var(--hue-color), 89%, 60%);
-  --second-color: hsl(var(--hue-color), 56%, 12%);
-}
-
-@media screen and (min-width: 968px) {
-  :root {
-    --big-font-size: 3.5rem;
-    --h2-font-size: 2rem;
-    --normal-font-size: 1rem;
-    --smaller-font-size: .875rem;
-  }
-}
-
-/* Skill selesai */
-
-/* Language mulai */
-
-.judul-Language {
-  margin-top: 25px;
-  text-align: center;
-  font-family: "Ubuntu", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-}
-
-.Language__container {
-  order: 1;
-}
-
-.Language__subtitle {
-  margin-bottom: var(--mb-2);
-}
-
-.Language__text {
-  margin-bottom: var(--mb-4);
-}
-
-.Language__data {
-  margin: 10px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  position: relative;
-  font-weight: var(--font-semi);
-  padding: 0.5rem 1rem;
-  margin-bottom: var(--mb-4);
-  border-radius: 0.5rem;
-  box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
-}
-
-.Language__icon {
-  font-size: 2rem;
-  margin-right: var(--mb-2);
-  color: var(--first-color);
-}
-
-.Language__names {
-  display: flex;
-  align-items: center;
-}
-
-.Language__bar {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  background-color: var(--first-color);
-  height: 0.25rem;
-  border-radius: 0.5rem;
-  z-index: var(--z-back);
-}
-
-.Language__indonesia {
-  width: 100%;
-}
-
-.Language__English {
-  width: 5%;
-}
-
-:root {
-  --hue-color: 224;
-  --first-color: hsl(var(--hue-color), 89%, 60%);
-  --second-color: hsl(var(--hue-color), 56%, 12%);
-}
-
-@media screen and (min-width: 768px) {
-  :root {
-    --big-font-size: 3.5rem;
-    --h2-font-size: 2rem;
-    --normal-font-size: 1rem;
-    --smaller-font-size: .875rem;
-  }
-}
-
-/* Language selesai */
-
-
-@media screen and (max-width: 1080px) {
-    .wrapper {
-      grid-template-columns: 1fr;
-      margin-top: 250px;
-      align-items: center;
-      width: 100%;
-    }
-}
-
-@media screen and (max-width: 565px){
-    .wrapper{
-        width: 100%;
-    }
-}
-
-/* About selesai */
