@@ -1,11 +1,10 @@
 section {}
 
 /* Navbar Mulai */
-.navbar {
+.navbar{
     background-color: white;
     box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.25);
 }
-
 /* Navbar Selesai */
 
 /* Home Mulai */
@@ -17,16 +16,17 @@ section {}
     font-size: 48px;
 }
 
+.nama{
+    font-size: 10px;
+}
+
 .home img {
-    width: %;
 }
 
 @media only screen and (max-width: 768px) {
     .home img {
         width: 100%;
     }
-
-
 }
 
 @media only screen and (max-width: 576px) {
@@ -34,7 +34,9 @@ section {}
         left: -10px;
         font-size: 64px;
     }
+    
 }
+
 
 /* Home Selesai */
 
@@ -42,7 +44,8 @@ section {}
 
 .container-skill-language{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    margin-top: 100px;
 }
 
 @media screen and (max-width: 992px) {
@@ -75,6 +78,8 @@ section {}
 .skills__container {
     row-gap: 2rem;
     text-align: center;
+    padding: 0;
+    margin: 0;
 }
 
 .skills__subtitle {
@@ -107,7 +112,7 @@ section {}
     left: 0;
     bottom: 0;
     background-color: var(--first-color);
-    height: 0.25rem;
+    height: 0.5rem;
     border-radius: 0.5rem;
     z-index: var(--z-back);
 }
@@ -220,7 +225,7 @@ section {}
     left: 0;
     bottom: 0;
     background-color: var(--first-color);
-    height: 0.25rem;
+    height: 0.5rem;
     border-radius: 0.5rem;
     z-index: var(--z-back);
 }
