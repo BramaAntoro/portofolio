@@ -64,7 +64,10 @@ html {
 }
 
 @media only screen and (max-width: 989px) {
-
+    .container{
+        width: 100vh;
+        max-width: 100vh;
+    }
 
     .fw-semibold{
         font-size: 30px;
@@ -77,6 +80,11 @@ html {
 }
 
 @media (max-width: 768px) {
+    .container{
+        width: 100vh;
+        max-width: 100vh;
+    }
+
     .home .row {
         flex-direction: column-reverse;
     }
