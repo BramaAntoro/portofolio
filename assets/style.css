@@ -50,7 +50,6 @@ html {
 }
 
 .img-brama{
-    width: %;
 }
 
 
@@ -65,7 +64,16 @@ html {
 }
 
 @media only screen and (max-width: 989px) {
-    
+
+
+    .fw-semibold{
+        font-size: 30px;
+    }
+
+    .nama{
+        font-size: 30px;
+    }
+
 }
 
 @media (max-width: 768px) {
@@ -75,6 +83,10 @@ html {
 
     .home .col-12.col-md-4 {
         order: -1;
+    }
+
+    .nama{
+        font-size: 40px;
     }
 }
 
