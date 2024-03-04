@@ -49,6 +49,10 @@ html {
     padding: 10px;
 }
 
+.img-brama{
+    width: %;
+}
+
 
 @keyframes typing {
     from {
@@ -58,6 +62,10 @@ html {
     to {
         width: 100%
     }
+}
+
+@media only screen and (max-width: 989px) {
+    
 }
 
 @media (max-width: 768px) {
