@@ -1,199 +1,173 @@
-*,
-html {
-    padding: 0;
-    margin: 0;
-}
-
-/* Navbar Mulai */
-
-/* .container_navbar {
-    padding: 10px 100px 10px 100px;
-    font-size: 20px;
-    font-family: "Madimi One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
-@media screen and (max-width: 990px) {
-    .container_navbar {
-        padding: 0;
-        margin: 0;
-    }
-} */
-
-/* Navbar Selesai */
-
-/* Home Mulai */
-
-.nama {
-    font-size: 52px;
-    font-family: "Madimi One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    overflow: hidden;
-    white-space: nowrap;
-    margin: 0 auto;
-    animation:
-        typing 3.5s steps(25, end) infinite;
-}
-
-
-.container-icon {
+section {
+    padding-top: 128px;
     position: relative;
-    top: 150px;
 }
 
-.icon {
-    text-decoration: none;
-    color: black;
-    padding: 10px;
-}
-
-.img-brama{
-}
-
-
-@keyframes typing {
-    from {
-        width: 0
-    }
-
-    to {
-        width: 100%
-    }
-}
-
-@media only screen and (max-width: 989px) {
-    .container{
-        width: 100vh;
-        max-width: 100vh;
-    }
-
-    .fw-semibold{
-        font-size: 30px;
-    }
-
-    .nama{
-        font-size: 30px;
-    }
-
-}
-
-@media (max-width: 768px) {
-    .container{
-        width: 100vh;
-        max-width: 100vh;
-    }
-
-    .home .row {
-        flex-direction: column-reverse;
-    }
-
-    .home .col-12.col-md-4 {
-        order: -1;
-    }
-
-    .nama{
-        font-size: 35px;
-    }
-}
-
-/* button mulai */
-.button {
-    position: relative;
-    padding: 10px 22px;
-    border-radius: 6px;
-    border: none;
-    color: #fff;
-    cursor: pointer;
-    background-color: rgb(0, 0, 255);
-    transition: all 0.2s ease;
-    top: 90px;
-}
-
-.button:active {
-    transform: scale(0.96);
-}
-
-.button:before,
-.button:after {
+section::before {
+    z-index: -1;
+    content: '';
+    font-size: 72px;
+    color: gray;
+    opacity: 0.25;
     position: absolute;
-    content: "";
-    width: 150%;
-    left: 50%;
+    font-weight: 700;
+    top: 20px;
+    left: -30px;
+}
+
+.btn.button {
+    border: 3px solid black;
+    border-radius: 24px;
+}
+
+.btn.button:hover, .btn.button.active {
+    border: 3px solid black;
+    background-color: black;
+    color: white;
+}
+
+.navbar {
+    background-color: white;
+    box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.25);
+}
+
+.home h1 {
+    font-size: 72px;
+}
+
+.home h3 {
+    font-size: 48px;
+}
+
+.home img{
+    width: 100%;
+}
+
+.home .arrow img{
+    width: 60px;
+}
+
+#arrow {
+    animation: 2s upDown infinite;
+}
+
+.about::before {
+    content: 'About';
+}
+
+.about-exp-item {
+    margin-top: 32px;
+}
+
+.about-exp-item-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-exp-item-detail {
+    display: none;
+}
+
+.work::before {
+    content: 'Work'
+}
+
+.work-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "work-1 work-2" "work-3 work-3";
+    gap: 16px;
+}
+
+.work-img img {
+    width: 100%;
+}
+
+.work-img-item {
+    position: relative;
+}
+
+.work-img-item:hover::after{
+    content: '';
+    width: 100%;
     height: 100%;
-    transform: translateX(-50%);
-    z-index: -1000;
-    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 24px;
 }
 
-.button:hover:before {
-    top: -70%;
-    background-image: radial-gradient(circle, #7d2ae8 20%, transparent 20%),
-        radial-gradient(circle, transparent 20%, #7d2ae8 20%, transparent 30%),
-        radial-gradient(circle, #7d2ae8 20%, transparent 20%),
-        radial-gradient(circle, #7d2ae8 20%, transparent 20%),
-        radial-gradient(circle, transparent 10%, #7d2ae8 15%, transparent 20%),
-        radial-gradient(circle, #7d2ae8 20%, transparent 20%),
-        radial-gradient(circle, #7d2ae8 20%, transparent 20%),
-        radial-gradient(circle, #7d2ae8 20%, transparent 20%),
-        radial-gradient(circle, #7d2ae8 20%, transparent 20%);
-    background-size: 10% 10%, 20% 20%, 15% 15%, 20% 20%, 18% 18%, 10% 10%, 15% 15%,
-        10% 10%, 18% 18%;
-    background-position: 50% 120%;
-    animation: greentopBubbles 0.6s ease;
+#work-1 {
+    grid-area: work-1;
 }
 
-@keyframes greentopBubbles {
+#work-1:hover::after{
+    content: 'Web Project';
+}
+
+#work-2 {
+    grid-area: work-2;
+}
+
+#work-2:hover::after{
+    content: 'Software Project';
+}
+
+#work-3 {
+    grid-area: work-3;
+}
+
+#work-3:hover::after{
+    content: 'Software Project';
+}
+
+.contact {
+    padding-bottom: 128px;
+}
+
+.contact::before {
+    content: 'Contact';
+}
+
+.contact-form {
+    border: 1px solid black;
+    padding: 64px 32px;
+}
+
+.form-label {
+    font-weight: 700;
+}
+
+@media only screen and (max-width: 768px) {
+    .home img {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    section::before {
+        left: -10px;
+        font-size: 64px;
+    }
+}
+
+@keyframes upDown {
     0% {
-        background-position: 5% 90%, 10% 90%, 10% 90%, 15% 90%, 25% 90%, 25% 90%,
-            40% 90%, 55% 90%, 70% 90%;
+        transform: translateY(0);
     }
 
     50% {
-        background-position: 0% 80%, 0% 20%, 10% 40%, 20% 0%, 30% 30%, 22% 50%,
-            50% 50%, 65% 20%, 90% 30%;
+        transform: translateY(10px);
     }
 
     100% {
-        background-position: 0% 70%, 0% 10%, 10% 30%, 20% -10%, 30% 20%, 22% 40%,
-            50% 40%, 65% 10%, 90% 20%;
-        background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
+        transform: translateY(0);
     }
 }
-
-.button:hover::after {
-    bottom: -70%;
-    background-image: radial-gradient(circle, #7d2ae8 20%, transparent 20%),
-        radial-gradient(circle, #7d2ae8 20%, transparent 20%),
-        radial-gradient(circle, transparent 10%, #7d2ae8 15%, transparent 20%),
-        radial-gradient(circle, #7d2ae8 20%, transparent 20%),
-        radial-gradient(circle, #7d2ae8 20%, transparent 20%),
-        radial-gradient(circle, #7d2ae8 20%, transparent 20%),
-        radial-gradient(circle, #7d2ae8 20%, transparent 20%);
-    background-size: 15% 15%, 20% 20%, 18% 18%, 20% 20%, 15% 15%, 20% 20%, 18% 18%;
-    background-position: 50% 0%;
-    animation: greenbottomBubbles 0.6s ease;
-}
-
-@keyframes greenbottomBubbles {
-    0% {
-        background-position: 10% -10%, 30% 10%, 55% -10%, 70% -10%, 85% -10%,
-            70% -10%, 70% 0%;
-    }
-
-    50% {
-        background-position: 0% 80%, 20% 80%, 45% 60%, 60% 100%, 75% 70%, 95% 60%,
-            105% 0%;
-    }
-
-    100% {
-        background-position: 0% 90%, 20% 90%, 45% 70%, 60% 110%, 75% 80%, 95% 70%,
-            110% 10%;
-        background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
-    }
-}
-
-/* button selesai */
-
-/* Home Selesai */
