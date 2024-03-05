@@ -1,4 +1,7 @@
-section {}
+body {
+    overflow-x: hidden;
+}
+
 
 /* Navbar Mulai */
 .navbar {
@@ -21,11 +24,13 @@ section {}
     font-size: 10px;
 }
 
-.home img {}
-
 @media only screen and (max-width: 768px) {
     .home img {
         width: 100%;
+    }
+
+    .home h1 {
+        font-size: 50px;
     }
 }
 
@@ -58,12 +63,9 @@ section {}
 /* skill mulai */
 
 :root {
-
-
     --hue-color: 224;
     --first-color: hsl(var(--hue-color), 89%, 60%);
     --second-color: hsl(var(--hue-color), 56%, 12%);
-
     /*===== Margenes =====*/
     --mb-4: 0.5rem;
 }
@@ -261,14 +263,22 @@ section {}
 
 /* Academic Mulai */
 
+.judul-academic {
+    text-align: center;
+}
+
 .container-academic {
-    display: flex;
-    justify-content: center;
     padding-top: 50px;
 }
 
+.academic {
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+}
+
 .accordion {
-    width: 80%;
+    width: 90%;
 }
 
 /* Academic Selesai */
@@ -277,11 +287,15 @@ section {}
 
 /* Sertifikat Mulai */
 
-.container-sertifikat{
-
+.container-sertifikat {
+    padding-top: 20px;
 }
 
-.sertifikat{
+.judul-sertifikat {
+    text-align: center;
+}
+
+.sertifikat {
     font-family: "Open Sans", sans-serif;
     display: flex;
     flex-direction: column;
@@ -293,18 +307,18 @@ section {}
     max-width: 30rem;
 }
 
-.img-sertifikat{
+.img-sertifikat {
     display: block;
     width: 100%;
 }
 
-.sertifikat-Judul{
+.sertifikat-Judul {
     margin: 0;
     font-size: 1.4rem;
 }
 
 @media (min-width: 50em) {
-    .sertifikat-Judul{
+    .sertifikat-Judul {
         font-size: 1.8rem;
     }
 }
@@ -338,5 +352,20 @@ section {}
     margin: min(1.5rem, 2.5vw) 0 0 0;
 }
 
+@media screen and (max-width: 768px) {
+    .container-sertifikat {
+        width: 100vh;
+    }
+
+    .col-12 {
+        padding-top: 25px;
+    }
+}
 
 /* Sertifikat Selesai */
+
+/* Work Mulai */
+
+
+
+/* Work Selesai */
