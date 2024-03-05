@@ -25,6 +25,10 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
+    .home {
+        padding-top: 50px;
+    }
+
     .home img {
         width: 100%;
     }
@@ -366,6 +370,135 @@ body {
 
 /* Work Mulai */
 
+.container-work {
+    padding-top: 50px;
+}
 
+.judul-work {
+    text-align: center;
+    font-size: 45px;
+}
+
+.name-work {
+    font-size: 32px;
+    text-align: center;
+    color: black;
+}
+
+.blog-wrapper {
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.blog-wrapper .blog-card {
+    max-width: 300px;
+    margin: 15px;
+    background: #fff;
+    border: 1px solid #CB6074;
+    text-align: center;
+    cursor: pointer;
+}
+
+.blog-wrapper .blog-card:hover {
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, .1);
+}
+
+.blog-wrapper .blog-card .card-img {
+    position: relative;
+    text-align: center;
+    background: #CB6074;
+}
+
+.blog-wrapper .blog-card .card-img .img-work {
+    max-height: 180px;
+    width: 100%;
+    border-bottom: 4px solid #CB6074;
+}
+
+.blog-wrapper .blog-card .card-img .name-work {
+    position: absolute;
+    margin: 0;
+    font-size: 42px;
+    bottom: 15px;
+    width: 100%;
+    color: black;
+    font-family: 'Slabo 27px', serif;
+}
+
+.blog-wrapper .blog-card .card-text {
+    padding: 30px 15px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 22px;
+}
+
+.blog-wrapper .blog-card .read-more {
+    display: inline-block;
+    width: auto;
+    text-align: center;
+    text-transform: uppercase;
+    background: #CB6074;
+    color: #fff;
+    padding: 15px;
+    margin-bottom: 30px;
+    font-family: 'Oswald', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
 
 /* Work Selesai */
+
+/* Contact Mulai */
+
+.container-contact {
+    padding-top: 50px;
+}
+
+.judul-contact {
+    text-align: center;
+}
+
+.container-form {
+    width: 50%;
+}
+
+@media screen and (max-width: 650px) {
+    .container-form {
+        width: 90%;
+    }
+}
+
+/* Contact Selasai */
+
+/* Footer Mulai */
+
+.footer {
+    background-color: rgb(3, 3, 39);
+    color: #fff;
+    text-align: center;
+    font-weight: var(--font-semi);
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+.footer__title {
+    font-size: 2rem;
+    margin-bottom: var(--mb-4);
+}
+
+.footer__social {
+    margin-bottom: var(--mb-4);
+}
+
+.footer__icon {
+    font-size: 1.5rem;
+    color: #fff;
+    margin: 0 var(--mb-2);
+}
+
+/* Footer Selesai */
