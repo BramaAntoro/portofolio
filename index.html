@@ -9,6 +9,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/style.css">
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("ezWyNjkDGNPuub4mw")
+        })()
+    </script>
+
 </head>
 
 <body>
@@ -384,7 +392,7 @@
                     <label for="textareaInput" class="form-label">message</label>
                     <textarea class="form-control" id="textareaInput" rows="3"></textarea>
                 </div>
-                <button type="submit" class="btn btn-primary">Kirim</button>
+                <button type="submit" class="btn btn-primary" onclick="SendMail()">Kirim</button>
             </form>
         </div>
 
