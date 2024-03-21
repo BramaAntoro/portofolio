@@ -135,85 +135,6 @@ body {
 
 /* About Selesai */
 
-/* Sertifikat Mulai */
-
-.container-sertifikat {
-    padding-top: 20px;
-}
-
-.judul-sertifikat {
-    text-align: center;
-}
-
-.sertifikat {
-    font-family: "Open Sans", sans-serif;
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    justify-content: center;
-    align-items: center;
-    background: hsl(187 40% 98%);
-    padding-top: 50px;
-    max-width: 30rem;
-}
-
-.img-sertifikat {
-    display: block;
-    width: 100%;
-}
-
-.sertifikat-Judul {
-    margin: 0;
-    font-size: 1.4rem;
-}
-
-@media (min-width: 50em) {
-    .sertifikat-Judul {
-        font-size: 1.8rem;
-    }
-}
-
-.cta {
-    --shadowColor: 187 60% 40%;
-    display: flex;
-    flex-wrap: wrap;
-    background: hsl(187 70% 85%);
-    max-width: 50rem;
-    width: 100%;
-    box-shadow: 0.65rem 0.65rem 0 hsl(var(--shadowColor) / 1);
-    border-radius: 0.8rem;
-    overflow: hidden;
-    border: 0.5rem solid;
-}
-
-.cta img {
-    aspect-ratio: 3 / 2;
-    object-fit: cover;
-    flex: 1 1 300px;
-    outline: 0.5rem solid;
-}
-
-.cta__text-column {
-    padding: min(2rem, 5vw) min(2rem, 5vw) min(2.5rem, 5vw);
-    flex: 1 0 50%;
-}
-
-.cta__text-column>*+* {
-    margin: min(1.5rem, 2.5vw) 0 0 0;
-}
-
-@media screen and (max-width: 768px) {
-    .container-sertifikat {
-        width: 96%;
-    }
-
-    .col-12 {
-        padding-top: 25px;
-    }
-}
-
-/* Sertifikat Selesai */
-
 /* Work Mulai */
 
 .container-work {
@@ -305,6 +226,85 @@ a {
 
 
 /* Work Selesai */
+
+/* Sertifikat Mulai */
+
+.container-sertifikat {
+    padding-top: 20px;
+}
+
+.judul-sertifikat {
+    text-align: center;
+}
+
+.sertifikat {
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    background: hsl(187 40% 98%);
+    padding-top: 50px;
+    max-width: 30rem;
+}
+
+.img-sertifikat {
+    display: block;
+    width: 100%;
+}
+
+.sertifikat-Judul {
+    margin: 0;
+    font-size: 1.4rem;
+}
+
+@media (min-width: 50em) {
+    .sertifikat-Judul {
+        font-size: 1.8rem;
+    }
+}
+
+.cta {
+    --shadowColor: 187 60% 40%;
+    display: flex;
+    flex-wrap: wrap;
+    background: hsl(187 70% 85%);
+    max-width: 50rem;
+    width: 100%;
+    box-shadow: 0.65rem 0.65rem 0 hsl(var(--shadowColor) / 1);
+    border-radius: 0.8rem;
+    overflow: hidden;
+    border: 0.5rem solid;
+}
+
+.cta img {
+    aspect-ratio: 3 / 2;
+    object-fit: cover;
+    flex: 1 1 300px;
+    outline: 0.5rem solid;
+}
+
+.cta__text-column {
+    padding: min(2rem, 5vw) min(2rem, 5vw) min(2.5rem, 5vw);
+    flex: 1 0 50%;
+}
+
+.cta__text-column>*+* {
+    margin: min(1.5rem, 2.5vw) 0 0 0;
+}
+
+@media screen and (max-width: 768px) {
+    .container-sertifikat {
+        width: 96%;
+    }
+
+    .col-12 {
+        padding-top: 25px;
+    }
+}
+
+/* Sertifikat Selesai */
 
 /* Contact Mulai */
 
