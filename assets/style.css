@@ -51,32 +51,63 @@ body {
 
 /* About Mulai */
 
-.container-skill-language {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    margin-top: 100px;
-}
-
 .section-title {
     text-align: center;
 }
 
 
-@media screen and (max-width: 992px) {
-    .container-skill-language {
-        display: grid;
-        grid-template-columns: 1fr;
+/* skill mulai */
+
+.name-skil{
+    text-align: center;
+    font-size: 2vw;
+    margin-top: 50px;   
+}
+
+@media screen and (max-width: 738px) {
+    .name-skil {
+        font-size: 3vw;
     }
 }
 
-/* skill mulai */
-
+@media screen and (max-width: 580px) {
+    .name-skil {
+        font-size: 5vw;
+    }
+}
 
 /* Skill Selesai */
 
 /* Language Mulai */
 
+.Language{
+    margin-top: 50px;
+}
 
+.container-circle-language{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle-progress-indonesia {
+    width: 85px;
+    height: 85px;
+    border-radius: 100%;
+    background:
+        radial-gradient(closest-side, white 79%, transparent 80% 100%),
+        conic-gradient(blue 95%, rgb(100, 95, 95) 0);
+}
+
+
+.circle-progress-english {
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    background:
+        radial-gradient(closest-side, white 79%, transparent 80% 100%),
+        conic-gradient(blue 5%, rgb(100, 95, 95) 0);
+}
 
 /* Language Selesai */
 
