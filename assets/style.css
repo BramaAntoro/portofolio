@@ -487,10 +487,10 @@ a {
     border-radius: 0.8rem;
     overflow: hidden;
     border: 0.5rem solid;
+    margin-top: 25px;
 }
 
 .cta img {
-    aspect-ratio: 3 / 2;
     object-fit: cover;
     flex: 1 1 300px;
     outline: 0.5rem solid;
