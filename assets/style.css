@@ -141,7 +141,7 @@ body {
 
 /* work mulai */
 
-.container-work{
+.container-work {
     margin: 50px;
     font-size: 45px;
 }
@@ -377,7 +377,7 @@ body {
 }
 
 .blog-wrapper .blog-card {
-    max-width: 300px;
+    max-width: 400px;
     margin: 15px;
     background: #fff;
     border: 1px solid #CB6074;
@@ -417,17 +417,7 @@ body {
     line-height: 22px;
 }
 
-.blog-wrapper .blog-card .read-more {
-    display: inline-block;
-    width: auto;
-    text-align: center;
-    text-transform: uppercase;
-    background: #CB6074;
-    color: #fff;
-    padding: 15px;
-    margin-bottom: 30px;
-    font-family: 'Oswald', sans-serif;
-}
+
 
 a {
     text-decoration: none;
@@ -440,6 +430,10 @@ a {
     }
 }
 
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(100%);
+}
 
 /* project Selesai */
 
