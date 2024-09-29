@@ -53,15 +53,15 @@ document.addEventListener("DOMContentLoaded", function () {
             penjelasan: `CERTIFICATE OF COMPLETION For completing the course flexy FUNDAMENTAL FRONT-END WEB
                             DEVELOPMENT 1 Completed on February 19,2024 Diselenggarakan oleh Coding StudioDigital Skill
                             Course`,
-            kredesial: "https://storage.googleapis.com/myskill-v2-certificates/topic-pTLX6J38RGSQ4dfEO6yQ/UWddfZoysfU2JRAf2qjYmVhRtUy2-PsfN0OuiRFgPWoayOxy8.pdf"
+            kredesial: "https://member.codingstudio.id/certificate/77EBA40B94-77DFB8E69C-77DFB89A6F"
         },
         {
             img: "assets/img/sertifikat/Certificate-of-completion_Fundamental-Front-End-Web-Development-II_Muhammad-Brama-Antoro.jpg",
-            sertifikat: "Sertifikat MySkill Web Development Fundamenta2",
+            sertifikat: "Sertifikat Coding Studio FUNDAMENTAL FRONT-END WEB DEVELOPMENT 2",
             penjelasan: `CERTIFICATE OF COMPLETION For completing the course flexy FUNDAMENTAL FRONT-END WEB
                             DEVELOPMENT 2 Completed on March 02,2024 Diselenggarakan oleh Coding StudioDigital Skill
                             Course`,
-            kredesial: "https://storage.googleapis.com/myskill-v2-certificates/topic-pTLX6J38RGSQ4dfEO6yQ/UWddfZoysfU2JRAf2qjYmVhRtUy2-PsfN0OuiRFgPWoayOxy8.pdf"
+            kredesial: "https://member.codingstudio.id/certificate/77EBA40B94-77FDB43C25-77DFB89A6F"
         },
         // Academy Sekolahan
         {
