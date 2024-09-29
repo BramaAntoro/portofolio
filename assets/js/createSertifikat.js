@@ -2,6 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // data
     var data = [
+        // kominfo
         {
             img: "assets/img/sertifikat/Sertifikat-partisipasi-Kominfo-Muhammad-Brama-Antoro.jpg",
             sertifikat: "Sertifikat Kominfo",
@@ -9,8 +10,9 @@ document.addEventListener("DOMContentLoaded", function () {
                             Pemanfaatan Internet Untuk Menyebarkan Konten Positif.Bertema Pemanfaatan Internet Untuk
                             Menyebarkan Konten Positif.Yang diselenggarakan oleh Kominfo, Siberkreasi, Yayasan
                             Pendidikan Dasar dan Menengah Pasundan`,
-            kredesial: "https://drive.google.com/file/d/1D_5_XEKHT2qvjExq6DqVD3-E9vx3e9tb/view?usp=drive_link"
+            kredesial: "https://drive.google.com/file/d/1464RpXwsbZhNnCTGu-jIPPGzRPrqbH3r/view?usp=drive_link"
         },
+        // MySkill
         {
             img: "assets/img/sertifikat/Certificate-of-Skill-Specialization-MySkill-FRONTEND-HTML-Muhammad-Brama-Antoro.jpg",
             sertifikat: "Sertifikat MySkill HTML",
@@ -18,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
                             E-Learning - MySkill Learning Path: Website Development
                             Completed a Full Topic with Specialization in: FRONTEND - HTML
                             March 16,2024 yang diselenggarakan oleh MySkill E-Learning`,
-            kredesial: "https://drive.google.com/file/d/1X1dkaKH-p4Jwqwa6fINvfWuXq2Kr7u20/view?usp=drive_link"
+            kredesial: "https://storage.googleapis.com/myskill-v2-certificates/topic-DQ4WDIr2jXa70FUI477S/UWddfZoysfU2JRAf2qjYmVhRtUy2-dv4HLu2Zd5JDxU1YyKba.pdf"
         },
         {
             img: "assets/img/sertifikat/Certificate-of-Skill-Specialization-MySkill-FRONTEND-CSS-Muhammad-Brama-Antoro.jpg",
@@ -26,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function () {
             penjelasan: `Certificate of Skill Specialization E-Learning - MySkill Learning Path: Website Development
                             Completed a Full Topic with Specialization in: FRONTEND-CSS March 23,2024 yang
                             diselenggarakan oleh MySkill E-Learning`,
-            kredesial: "https://drive.google.com/file/d/14T7EZQPGEOoCNuj7pXkBHcAeV7wo3mEf/view?usp=drive_link"
+            kredesial: "https://storage.googleapis.com/myskill-v2-certificates/topic-DQ4WDIr2jXa70FUI477S/UWddfZoysfU2JRAf2qjYmVhRtUy2-dv4HLu2Zd5JDxU1YyKba.pdf"
         },
         {
             img: "assets/img/sertifikat/Certificate-of-Skill-Specialization-MySkill-Web-Development-Fundamental-Muhammad-Brama-Antoro.jpg",
@@ -34,15 +36,24 @@ document.addEventListener("DOMContentLoaded", function () {
             penjelasan: `Certificate of Skill Specialization E-Learning - MySkill Learning Path: Website Development
                             Completed a Full Topic with Specialization in: Web Development Fundamental March 29,2024
                             yang diselenggarakan oleh MySkill E-Learning`,
-            kredesial: "https://drive.google.com/file/d/1Ilik2C2-ZwxQYOEerqDW3f4ZOrMzWahI/view"
+            kredesial: "https://storage.googleapis.com/myskill-v2-certificates/topic-DQ4WDIr2jXa70FUI477S/UWddfZoysfU2JRAf2qjYmVhRtUy2-dv4HLu2Zd5JDxU1YyKba.pdf"
         },
+        {
+            img: "assets/img/sertifikat/Certificate-of-Skill-Specialization-MySkill-FRONTEND-JavaScript-Muhammad-Brama-Antoro.jpg",
+            sertifikat: "Sertifikat MySkill JavaScript",
+            penjelasan: `Certificate of Skill Specialization E-Learning - MySkill Learning Path: Website Development 
+                            Completed a Full Topic with Specialization in: FRONTEND-JavaScript August 18,2024 
+                            yang diselenggarakan oleh MySkill E-Learning`,
+            kredesial: "https://storage.googleapis.com/myskill-v2-certificates/topic-pTLX6J38RGSQ4dfEO6yQ/UWddfZoysfU2JRAf2qjYmVhRtUy2-PsfN0OuiRFgPWoayOxy8.pdf"
+        },
+        // CodingStudio
         {
             img: "assets/img/sertifikat/Certificate-of-completion_Fundamental-Front-End-Web-Development-I_Muhammad-Brama-Antoro.jpg",
             sertifikat: "Sertifikat Coding Studio FUNDAMENTAL FRONT-END WEB DEVELOPMENT 1",
             penjelasan: `CERTIFICATE OF COMPLETION For completing the course flexy FUNDAMENTAL FRONT-END WEB
                             DEVELOPMENT 1 Completed on February 19,2024 Diselenggarakan oleh Coding StudioDigital Skill
                             Course`,
-            kredesial: "https://codingstudio.id/certificate/77EBA40B94-77DFB8E69C-77DFB89A6F/"
+            kredesial: "https://storage.googleapis.com/myskill-v2-certificates/topic-pTLX6J38RGSQ4dfEO6yQ/UWddfZoysfU2JRAf2qjYmVhRtUy2-PsfN0OuiRFgPWoayOxy8.pdf"
         },
         {
             img: "assets/img/sertifikat/Certificate-of-completion_Fundamental-Front-End-Web-Development-II_Muhammad-Brama-Antoro.jpg",
@@ -50,8 +61,9 @@ document.addEventListener("DOMContentLoaded", function () {
             penjelasan: `CERTIFICATE OF COMPLETION For completing the course flexy FUNDAMENTAL FRONT-END WEB
                             DEVELOPMENT 2 Completed on March 02,2024 Diselenggarakan oleh Coding StudioDigital Skill
                             Course`,
-            kredesial: "https://codingstudio.id/certificate/77EBA40B94-77FDB43C25-77DFB89A6F/"
+            kredesial: "https://storage.googleapis.com/myskill-v2-certificates/topic-pTLX6J38RGSQ4dfEO6yQ/UWddfZoysfU2JRAf2qjYmVhRtUy2-PsfN0OuiRFgPWoayOxy8.pdf"
         },
+        // Academy Sekolahan
         {
             img: "assets/img/sertifikat/Certificate-of-completion-Muhammad-Brama-Antoro-Menggunakan-Bootstrap-Framework-289829.jpg",
             sertifikat: "Sertifikat Academy Sekolahan BOOTSTRAP",
@@ -78,7 +90,7 @@ document.addEventListener("DOMContentLoaded", function () {
     function tampilSertifikat() {
         var containerSertifikat = document.getElementById("container-sertifikat")
         containerSertifikat.innerHTML = ""
-    
+
         data.forEach(item => {
             var kartu = document.createElement("div")
             kartu.classList.add("col-md-4")
@@ -94,10 +106,10 @@ document.addEventListener("DOMContentLoaded", function () {
                     </div>
                 </article>
             `
-    
+
             containerSertifikat.appendChild(kartu)
         })
     }
-    
+
     tampilSertifikat()
 })

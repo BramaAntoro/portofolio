@@ -110,7 +110,7 @@ body {
     border-radius: 50%;
     background:
         radial-gradient(closest-side, white 79%, transparent 80% 100%),
-        conic-gradient(blue 5%, rgb(100, 95, 95) 0);
+        conic-gradient(blue 10%, rgb(100, 95, 95) 0);
 }
 
 /* Language Selesai */
